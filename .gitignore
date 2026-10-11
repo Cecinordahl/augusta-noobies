@@ -1,0 +1,18 @@
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+
+# Backend (Maven / Spring Boot)
+backend/target/
+backend/firebase-service-account.json
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Frontend (Vite / Node)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
